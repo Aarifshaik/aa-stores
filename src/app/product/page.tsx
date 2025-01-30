@@ -187,7 +187,7 @@ export default function ProductPage() {
           <div className="flex items-center justify-between mb-6">
             <h2 className="text-2xl font-semibold tracking-tight">Latest Drops</h2>
             <Button>
-              <CircleArrowOutUpRight className="mr-2" /> View All
+              <CircleArrowOutUpRight className="mr-2" onClick={()=>logout()}/> View All
             </Button>
           </div>
           <p className="text-sm text-muted-foreground mb-4">

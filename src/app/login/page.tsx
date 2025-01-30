@@ -303,7 +303,7 @@ export default function Login() {
     const paHa = SHA256(password).toString();
 
     if (emHa === emh && paHa === ph) {
-      const user = { email, name: "Ayesha" };
+      const user = { id: "1419", email, name: "Ayesha" };
       login(user);
       router.push("/product");
     } else {
@@ -329,7 +329,8 @@ export default function Login() {
         <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start mt-[-180px]">
           <Image
             className="dark:invert"
-            src="/next.svg"
+            src="https://raw.githubusercontent.com/Aarifshaik/aa-stores/refs/heads/main/public/next.svg"
+            // src="https://raw.githubusercontent.com/Aarifshaik/aa-stores/refs/heads/main/public/next.svg"
             alt="Next.js logo"
             width={180}
             height={38}
