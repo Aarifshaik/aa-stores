@@ -5,7 +5,6 @@ const nextConfig: NextConfig = {
   // basePath: '/aa-stores', // Replace <repository-name> with your GitHub repo name
   // trailingSlash: true, // Ensures proper paths for GitHub Pages
   /* config options here */ 
-  distDir:'dist',
   images: {
     domains: ["images.unsplash.com","plus.unsplash.com"],
     unoptimized: true,
