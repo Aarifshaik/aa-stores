@@ -336,7 +336,7 @@ export default function Login() {
             height={38}
             priority
           />
-          <h1 className="text-xl font-semibold sm:text-2xl">Please Login....! Madamo</h1>
+          <h1 className="text-xl font-semibold sm:text-2xl">Please Login, Ayesha Madam...!</h1>
 
           <Form {...form}>
             <form
